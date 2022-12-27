@@ -1,0 +1,47 @@
+body
+{
+    background-color: greenyellow;
+}
+
+h1
+{
+    background-color: yellow;
+    color: darkblue;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+p
+{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+canvas
+{
+    margin-top: 200;
+    border: 1px solid white;
+    border-radius: 20px;
+    animation-name: R;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes R 
+{
+    from{box-shadow: 1px 1px 80px gold;}
+    to{box-shadow: 1px 1px 80px red;}
+}
+
+#t
+{
+    float: right;
+}
+
+#s
+{
+    float: left;
+}
